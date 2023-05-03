@@ -562,7 +562,7 @@ Version: 1.0
 
 .btn.btn-primary {
 	color: #fff !important;
-	background-color: #ff5e15!important;
+	background-color: #46bfe8!important;
   }
   
   .btn.btn-primary:hover{
@@ -579,17 +579,19 @@ Version: 1.0
 
 body {
 	background-color: #FFF;
-	font-family: 'Poppins', sans-serif;
+	font-family: Roboto,sans-serif!important;
 	font-weight: 400;
-	color: #111111;
+	color: #002b49;
 	padding: 0;
 	margin: 0;
 	overflow-x: hidden;
 	font-size: 16px;
+	scroll-behavior:smooth;
+	
 }
 
 a {
-	color: #111111;
+	color: #002b49;
 	outline: 0 none;
 	text-decoration: none;
 }
@@ -751,14 +753,15 @@ table {
 
 h1,
 h2,
-h3,
+
 h4,
 h5,
 h6 {
 	margin-bottom: 15px;
 	font-family: 'Teko', sans-serif;
-	font-weight: 600;
+	font-weight: 200;
 	line-height: 1.1;
+	color: #002b49 !important; ;
 }
 
 .title-style-2 {
@@ -771,7 +774,8 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-	color: #000;
+	color: #37383c
+	;
 }
 
 h1 a:hover,
@@ -785,35 +789,39 @@ h6 a:hover {
 
 h1 {
 	font-size: 66px;
-	color: #00173c;
+	color: #002b49;
 	font-weight: 400;
 }
 
 h2 {
-	font-size: 52px;
-	color: #00173c;
+	font-size: 35px;
+	color: #37383c;
+	font-family: sans-serif;
 }
 
 h3 {
-	font-size: 30px;
-	color: #00173c;
+	font-size: 23px;
+	color: #002b49;
 }
 
 h4 {
 	font-size: 24px;
-	color: #00173c;
+	color: #37383c
+
 }
 
 h5 {
 	font-weight: normal;
 	font-size: 18px;
-	color: #00173c;
+	color:#37383c
+
 }
 
 h6 {
 	font-weight: normal;
 	font-size: 14px;
-	color: #00173c;
+	color:#37383c
+
 }
 
 .display-inline {
@@ -2392,9 +2400,17 @@ ol.list-num-count.list-outline-none>li:before {
 }
 
 .m-lr150 {
-	margin-left: 150px;
-	margin-right: 150px;
+	margin-left: 180px;
+	margin-right: 180px;
+	background-color: red;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 470px) {
+	.m-lr150 {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+} 
 
 
 /*-------------------------------------
@@ -2592,7 +2608,7 @@ ol.list-num-count.list-outline-none>li:before {
 }
 
 .site-text-secondry {
-	color: #00173c;
+	color: #002b49;
 }
 
 .text-black {
@@ -2965,6 +2981,14 @@ ol.list-num-count.list-outline-none>li:before {
 /*-------------------------------------
 	2. For icons with box
 -------------------------------------*/
+
+
+.wt-icon-box-xld .icon-cell, .wt-icon-box-xl .icon-cell, .wt-icon-box-lg .icon-cell, .wt-icon-box-md .icon-cell, .wt-icon-box-sm .icon-cell, .wt-icon-box-xs .icon-cell {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #46bfe8;
+}
+
 
 .wt-icon-box-xld,
 .wt-icon-box-xl,
@@ -4342,7 +4366,7 @@ ol.list-num-count.list-outline-none>li:before {
 }
 
 .masonry-filter li a {
-	color: #111111;
+	color: #37383c;
 	font-size: 14px;
 	position: relative;
 	z-index: 1;
@@ -4621,6 +4645,8 @@ ol.list-num-count.list-outline-none>li:before {
 .center.wt-small-separator-outer h2 {
 	max-width: 650px;
 	margin: 0px auto;
+	font-family: revert;
+	font-size:38px;
 }
 
 .center .wt-small-separator div.sep-leaf-right {
@@ -6111,7 +6137,7 @@ ol.list-num-count.list-outline-none>li:before {
 .wt-img-effect img {
 	display: block;
 	margin: 0;
-	width: 100%;
+	width: 80%;
 	height: auto;
 	box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 	-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
@@ -9360,6 +9386,11 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 	1. mega-menu
 -------------------------------------*/
 
+.megs h4{
+	margin-left: 17px;
+}
+
+
 .navbar-toggler {
 	border: none;
 	margin-top: 24px;
@@ -9930,7 +9961,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .header-style-1 .top-bar .wt-topbar-info li {
 	display: inline-block;
 	margin-right: 0px;
-	padding: 12px 15px 12px 160px;
+	padding: 12px 15px 12px 15px;
 	border-right: 1px solid rgba(255, 255, 255, 0.6);
 }
 
@@ -11463,6 +11494,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 
 .wt-bnr-inr-entry .banner-title-outer h2 {
 	font-size: 58px;
+	font-family: math;
 }
 
 @media only screen and (max-width: 991px) {
@@ -12094,7 +12126,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 
 .footer-dark .footer-top {
-	background-color: #47494e;
+	background-color: #002b49;
 	overflow: hidden;
 }
 
@@ -16996,14 +17028,14 @@ textarea.form-control2 {
 }
 
 .counter-outer .counter {
-	font-size: 70px;
+	font-size: 46px;
 	position: relative;
 	display: inline-block;
 	margin-left: -30px;
 }
 
 .counter-outer .counter:after {
-	font-size: 70px;
+	font-size: 46px;
 	position: absolute;
 	content: '+';
 	right: -30px;
@@ -17014,7 +17046,7 @@ textarea.form-control2 {
 .counter-outer span {
 	font-size: 28px;
 	display: block;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 @media only screen and (max-width:991px) {
@@ -17215,10 +17247,11 @@ textarea.form-control2 {
 }
 
 .service-box-title span {
-	font-size: 30px;
+	font-size: 25px;
 	display: block;
 	text-align: left;
 	line-height: 36px;
+	font-family: flticon;
 }
 
 .services-slider.owl-btn-vertical-center .owl-nav .owl-next {
@@ -20261,6 +20294,8 @@ ol.commentlist li .star-rating {
 	font-size: 26px;
 	padding: 3px 10px;
 	margin-bottom: 28px;
+	border: 1px solid white;
+	background-color: #46bfe8!important;
 }
 
 .footer-style3 .newsletter-input input::-webkit-input-placeholder {
@@ -21134,7 +21169,7 @@ ol.commentlist li .star-rating {
 
 .about-three .about-year .about-year-info {
 	padding: 30px;
-	background-color:#37383c;
+	background-color:#002b49;
 	position: absolute;
 	right: 70px;
 	bottom: 60px;
@@ -21155,7 +21190,7 @@ ol.commentlist li .star-rating {
 
 .about-three .about-year .about-year-info .wt-tilte {
 	margin-bottom: 0px;
-	color: #fff;
+	color: #fff !important;
 }
 
 @media (max-width: 460px) {
@@ -21516,14 +21551,14 @@ ol.commentlist li .star-rating {
 }
 
 .testimonial-5 .testimonial-text {
-	background-color: #37383c;
+	background-color: #46bfe8;
 	padding: 50px;
 	position: relative;
 }
 
 .testimonial-5 .testimonial-text p {
 	margin-bottom: 20px;
-	color: #d4d4d4;
+	color: white;
 	font-style: normal;
 }
 
@@ -21559,7 +21594,7 @@ ol.commentlist li .star-rating {
 
 .testimonial-5 .testimonial-detail .testimonial-position {
 	font-size: 14px;
-	color: #fff;
+	color:#002b49 ;
 	padding: 0px 0px 15px 0px;
 }
 
@@ -24802,3 +24837,5 @@ ol.commentlist li .star-rating {
 .post-style-12:hover .wt-post-info:before {
 	bottom: -8px;
 }
+
+/* //////////////CAREER PAGE////////////// */

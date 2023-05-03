@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<style>
+    .box .front-face {
+        background:#46bfe8 ;
+        height: 350px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 0px 5px 20px 0px rgba(0, 81, 250, 0.1);
+        transition: all 0.5s ease;
+    }
+
+    .box .front-face .icon {
+        height: 80px;
+    }
+
+    .box .front-face .icon i {
+        font-size: 65px;
+    }
+
+    .box .front-face span,
+    .box .back-face span {
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .box .front-face .icon i,
+    .box .front-face span {
+        background: linear-gradient(-135deg, #c850c0, #4158d0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .box .back-face {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        height: 350px;
+        width: 100%;
+        padding: 30px;
+        color: #fff;
+        opacity: 0;
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        background-color: #002b49;
+        transform: translateY(110px) rotateX(-90deg);
+        box-shadow: 0px 5px 20px 0px rgba(0, 81, 250, 0.1);
+        transition: all 0.5s ease;
+    }
+
+    .box .back-face p {
+        margin-top: 10px;
+        text-align: justify;
+    }
+
+    .box:hover .back-face {
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+
+    .box:hover .front-face {
+        opacity: 0;
+        transform: translateY(-110px) rotateX(90deg);
+    }
+</style>
+
+<body>
+
+    <div class="page-wraper">
+
+        {{>navbar}}
+
+        <!-- CONTENT START -->
+        <div class="page-content">
+
+            <!-- INNER PAGE BANNER -->
+            <div class="wt-bnr-inr overlay-wraper bg-center"
+                style="background-image:url(images/services/bann/career.jpg);">
+                <div class="overlay-main site-bg-secondry opacity-07"></div>
+                <div class="container">
+                    <div class="wt-bnr-inr-entry">
+                        <div class="banner-title-outer">
+                            <div class="banner-title-name">
+                                <h2 class="site-text-primary">Career</h2>
+                            </div>
+                        </div>
+                        <!-- BREADCRUMB ROW -->
+
+                        <div>
+                            <ul class="wt-breadcrumb breadcrumb-style-2">
+                                <li><a href="/"
+                                        style="color: #002b49;  font-family:inherit; font-weight:600 ;font-size:23px">Home</a>
+                                </li>
+                                <li style="color: #002b49;  font-family:inherit; font-weight:600 ;font-size:23px">Career
+                                    Page</li>
+                            </ul>
+                        </div>
+
+                        <!-- BREADCRUMB ROW END -->
+                    </div>
+                </div>
+            </div>
+            <!-- INNER PAGE BANNER END -->
+
+            <br>
+            <div class="container">
+                <h1>OPPORTUNITY, MADE POSSIBLE. MADE BETTER.</h1>
+                <h4 style="font-family: Georgia, 'Times New Roman', Times, serif">Welcome to Rhosigma. A career with us
+                    means opportunities to grow in any direction, innovate everywhere, and be yourself.</h4>
+            </div>
+
+
+            <div class="container-fluid ">
+                <div class="row justify-content-center">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-10 box m-3">
+                        <div class="front-face">
+                            <div class="icon">
+                                <center><img src="images\career\design.png" alt="Web Design" width="30%"></center>
+                            </div>
+                            <br>
+                            <br><br>
+                            <center><span>Web Developement</span></center>
+                        </div>
+                        <div class="back-face">
+                            <span>Description</span>
+                            <ul class="list-angle-right">
+                                <li>Conceptualizing and designing the layout and visual elements of a website based on
+                                    the
+                                    needs of the client or target audience.</li>
+                                <li>Staying up-to-date with the latest design trends and technologies, and incorporating
+                                    them into the design process when appropriate.</li>
+                                <li>Conducting user testing and gathering feedback to refine and improve the website
+                                    design.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-10 box m-3">
+                        <div class="front-face">
+                            <div class="icon">
+                                <center><img src="images\career\app-development.png" alt="App Developement" width="30%">
+                                </center>
+                            </div>
+                            <br> <br><br>
+                            <center><span>App Developement</span></center>
+                        </div>
+                        <div class="back-face">
+                            <span>Description</span>
+                            <ul class="list-angle-right">
+                                <li>Developing apps that are user-friendly, functional, and visually appealing, using
+                                    programming languages such as Java, Kotlin, Swift, or React Native.</li>
+                                <li>Collaborating with designers, project managers, and other developers to create
+                                    high-quality apps that meet project requirements and timelines.</li>
+                                <li>Conducting testing and debugging to identify and resolve issues or bugs in the app.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-10 box m-3">
+                        <div class="front-face">
+                            <div class="icon">
+                                <center><img src="images\career\hardware.png" alt="Embedded Developement" width="30%">
+                                </center>
+                            </div>
+                            <br> <br><br>
+                            <center><span>Embedded Developement</span></center>
+                        </div>
+                        <div class="back-face">
+                            <span>Description</span>
+                            <ul class="list-angle-right">
+                                <li>Designing and developing software applications and firmware for embedded systems,
+                                    using
+                                    programming languages such as C, C++, and assembly language.</li>
+                                <li>Developing device drivers and low-level software to interface with hardware
+                                    components
+                                    such as sensors, motors, and communication interfaces.</li>
+                                <li>Creating documentation and providing technical support for end-users and customers.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-10 box m-3">
+                        <div class="front-face">
+                            <div class="icon">
+                                <center><img src="images\career\app-development.png" alt="Firmware Developement"
+                                        width="30%"></center>
+                            </div>
+                            <br> <br><br>
+                            <center><span>Firmware Developement</span></center>
+                        </div>
+                        <div class="back-face">
+                            <span>Description</span>
+                            <ul class="list-angle-right">
+                                <li>Developing firmware for microcontrollers and other embedded systems, using
+                                    programming
+                                    languages such as C, C++, and assembly language.</li>
+                                <li>Writing device drivers and low-level software to interface with hardware components
+                                    such
+                                    as sensors, motors, and communication interfaces.</li>
+                                <li>Designing and implementing firmware algorithms to control and manage the device's
+                                    functions and operations.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    {{>footer}}
+
+
+</body>
+
+
+
+</html>

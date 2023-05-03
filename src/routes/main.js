@@ -8,32 +8,36 @@ routes.get("/", async (req, res) => {
   res.render("index");
 });
 
+routes.get("/about", async (req, res) => {
+  res.render("about");
+});
+
 routes.get("/services", async (req, res) => {
   res.render("services");
 });
 
-routes.get("/product", async (req, res) => {
-  res.render("product");
+routes.get("/blog", async (req, res) => {
+  res.render("blog");
 });
 
-routes.get("/solutionbuilt", async (req, res) => {
-  res.render("solutionbuilt");
+routes.get("/career", async (req, res) => {
+  res.render("career");
 });
 
 routes.get("/project", async (req, res) => {
   res.render("project");
 });
 
-routes.get("/about", async (req, res) => {
-  res.render("about");
-});
+
 
 routes.get("/contact", async (req, res) => {
   res.render("contact");
 });
 
-routes.get("/firware", async (req, res) => {
-  res.render("firware");
+
+
+routes.get("/firmware", async (req, res) => {
+  res.render("firmware");
 });
 
 routes.get("/hardware", async (req, res) => {

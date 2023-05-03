@@ -21248,6 +21248,7 @@ ol.commentlist li .star-rating {
 	-webkit-transition: width 0.3s ease;
 	transition: width 0.3s ease;
 	z-index: -1;
+	background-color: #46bfe8!important;
 }
 
 .projects-two-info.bg-white:hover .wt-tilte a,

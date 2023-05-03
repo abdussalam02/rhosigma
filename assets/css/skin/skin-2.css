@@ -3,15 +3,15 @@
 =====================*/
 
 ::selection {
-	background: #FF0000;
+	background: #002b49;
 }
 
 ::-moz-selection {
-	background: #FF0000;
+	background: #002b49;
 }
 
 ::-webkit-selection {
-	background: #FF0000;
+	background: #002b49;
 }
 
 /* Primary background color*/
@@ -76,11 +76,11 @@
 .ls-circle,
 .project-new-2 .project-new-content2 span,
 .project-new-2 .project-view .project-view-btn i {
-	background-color: #ff5e15;
+	background-color: #002b49 !important;
 }
 
 .site-button {
-	background-color: #ff5e15 !important
+	background-color: #002b49!important
 }
 
 /*-----Secondry background colo-----*/
@@ -98,7 +98,7 @@
 .footer-dark.footer-style2 .footer-top,
 .contact-info-section,
 .header-style-4 .header-search {
-	background-color: #37383c;
+	background-color: #46bfe8!important;
 }
 
 /* Buttons hover bg color*/
@@ -106,7 +106,7 @@
 .site-button:focus,
 .site-button:active,
 .nl-search-btn:hover {
-	background-color: #850101;
+	background-color: #46bfe8!important;
 }
 
 
@@ -203,7 +203,7 @@ blockquote .fa-quote-left,
 .wt-team-2 .team-detail a:hover,
 .testimonial-11-content .testimonial-11 .testimonial-text i,
 .testimonial-11-content .testimonial-11 .testimonial-info .testimonial-position {
-	color: #ff5e15;
+	color: #46bfe8;
 }
 
 .header-style-1 .header-nav .nav li:hover.has-child.nav-active>a {
@@ -239,11 +239,11 @@ blockquote .fa-quote-left,
 .icon-circle-box .icon-circle::after,
 .client-logo2-media::before,
 .client-logo2-media::after {
-	border-color: #ff5e15;
+	border-color: #002b49;
 }
 
 .about-three .about-year .about-year-info {
-	background-color: #ff5e15(255, 0, 0, 0.8);
+	background-color: #46bfe8;
 }
 
 /*===================== 

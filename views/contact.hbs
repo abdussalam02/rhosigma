@@ -4,64 +4,68 @@
 
 <head>
     <script type="text/javascript" s src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script src="js/c.js"></script>
-<script type="text/javascript">
-    (function () {
-        emailjs.init("E5b5uyw8EESceo5eG");
-    })();
-</script>
+    </script>
+    <script src="js/c.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("E5b5uyw8EESceo5eG");
+        })();
+    </script>
 
-<script src="/assets/js/c.js"></script>
+    <script src="/assets/js/c.js"></script>
 </head>
 
 
 <body>
 
-    <div class="page-wraper"> 
-    
-   {{>navbar}}
-        
+    <div class="page-wraper">
+
+        {{>navbar}}
+
         <!-- CONTENT START -->
         <div class="page-content">
-        
+
             <!-- INNER PAGE BANNER -->
-            <div class="wt-bnr-inr overlay-wraper bg-center" style="background-image:url(images/bannners/Contact-Us.jpg);">
-            	<div class="overlay-main site-bg-secondry opacity-07"></div>
+            <div class="wt-bnr-inr overlay-wraper bg-center"
+                style="background-image:url(images/bannners/Contact-Us.jpg);">
+                <div class="overlay-main site-bg-secondry opacity-07"></div>
                 <div class="container">
                     <div class="wt-bnr-inr-entry">
-                    	<div class="banner-title-outer">
-                        	<div class="banner-title-name">
-                        		<h2 class="site-text-primary">Contact Us</h2>
+                        <div class="banner-title-outer">
+                            <div class="banner-title-name">
+                                <h2 class="site-text-primary">Contact Us</h2>
                             </div>
                         </div>
-                        <!-- BREADCRUMB ROW -->                            
-                        
-                            <div>
-                                <ul class="wt-breadcrumb breadcrumb-style-2">
-                                    <li><a href="/" style="color: #002b49;  font-family:inherit; font-weight:600 ;font-size:23px">Home</a></li>
-                                    <li style="color: #002b49;  font-family:inherit; font-weight:600 ;font-size:23px">Contact Us</li>
-                                </ul>
-                            </div>
-                        
-                        <!-- BREADCRUMB ROW END -->                        
+                        <!-- BREADCRUMB ROW -->
+
+                        <div>
+                            <ul class="wt-breadcrumb breadcrumb-style-2">
+                                <li><a href="/"
+                                        style="color: #002b49;  font-family:inherit; font-weight:600 ;font-size:23px">Home</a>
+                                </li>
+                                <li style="color: #002b49;  font-family:inherit; font-weight:600 ;font-size:23px">
+                                    Contact Us</li>
+                            </ul>
+                        </div>
+
+                        <!-- BREADCRUMB ROW END -->
                     </div>
                 </div>
             </div>
             <!-- INNER PAGE BANNER END -->
 
             <!-- SECTION CONTENTG START -->
-           
-               <!-- CONTACT FORM -->
-             <div class="section-full  p-t80 p-b50 bg-cover" style="background-image:url(images/background/bg-7.jpg)">   
+
+            <!-- CONTACT FORM -->
+            <div class="section-full  p-t80 p-b50 bg-cover" style="background-image:url(images/background/bg-7.jpg)">
                 <div class="section-content">
                     <div class="container">
                         <div class="contact-one">
                             <!-- CONTACT FORM-->
                             <div class="row  d-flex justify-content-center flex-wrap">
-                            
+
                                 <div class="col-lg-6 col-md-6 m-b30">
-                                    <form  class="cons-contact-form"  id="contact-forms">
+                                    <form class="cons-contact-form" id="contact-forms">
                                         <!-- TITLE START -->
                                         <div class="section-head left wt-small-separator-outer">
                                             <div class="wt-small-separator site-text-primary">
@@ -70,52 +74,60 @@
                                                 <div class="sep-leaf-right"></div>
                                             </div>
                                             <h2>Get In Touch</h2>
-                                        </div>                                                                                
-                                        <!-- TITLE END --> 
-                                                                                
+                                        </div>
+                                        <!-- TITLE END -->
+
                                         <div class="row">
-                                           <div class="col-lg-12 col-md-12">
+                                            <div class="col-lg-12 col-md-12">
                                                 <div class="form-group">
-                                                    <input name="username" type="text" class="form-control" placeholder="Name" id="fname" autocomplete="off" required/>
+                                                    <input name="username" type="text" class="form-control"
+                                                        placeholder="Name" id="fname" autocomplete="off" required />
                                                 </div>
                                             </div>
-                                            
+
                                             <div class="col-lg-12 col-md-12">
                                                 <div class="form-group">
-                                                   <input name="email" type="text" class="form-control" placeholder="Email" id="femail" autocomplete="off" required/>
+                                                    <input name="email" type="text" class="form-control"
+                                                        placeholder="Email" id="femail" autocomplete="off" required />
                                                 </div>
                                             </div>
-                                            
+
                                             <div class="col-lg-12 col-md-12">
                                                 <div class="form-group">
-                                                    <input name="phone" type="text" class="form-control" placeholder="Phone" id="phone" autocomplete="off" required/>
-                                                 </div>
+                                                    <input name="phone" type="text" class="form-control"
+                                                        placeholder="Phone" id="phone" autocomplete="off" required />
+                                                </div>
                                             </div>
-                                            
+
                                             <div class="col-lg-12 col-md-12">
                                                 <div class="form-group">
-                                                     <input name="subject" type="text" class="form-control" placeholder="Subject" id="subject" autocomplete="off" required/>
-                                                 </div>
+                                                    <input name="subject" type="text" class="form-control"
+                                                        placeholder="Subject" id="subject" autocomplete="off"
+                                                        required />
+                                                </div>
                                             </div>
-                                            
+
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                   <textarea name="message" class="form-control" rows="4" placeholder="Message" id="fmessage" autocomplete="off" required ></textarea>
-                                                 </div>
+                                                    <textarea name="message" class="form-control" rows="4"
+                                                        placeholder="Message" id="fmessage" autocomplete="off"
+                                                        required></textarea>
+                                                </div>
                                             </div>
-                                            
-                                           <div class="col-md-12">
-                                                <button  class="site-button site-btn-effect" onclick="SendMail(event)">Submit Now</button>
+
+                                            <div class="col-md-12">
+                                                <button class="site-button site-btn-effect"
+                                                    onclick="SendMail(event)">Submit Now</button>
                                             </div>
-                                            
+
                                         </div>
-                                   </form>
+                                    </form>
                                 </div>
-                                
+
                                 <div class="col-lg-6 col-md-6 m-b30">
                                     <div class="contact-info">
                                         <div class="contact-info-inner">
-                                             
+
                                             <!-- TITLE START-->
                                             <div class="section-head left wt-small-separator-outer">
                                                 <div class="wt-small-separator site-text-primary">
@@ -124,68 +136,78 @@
                                                     <div class="sep-leaf-right"></div>
                                                 </div>
                                                 <h2>Our Full Info</h2>
-                                            </div>                                                                                           
-                                            <!-- TITLE END--> 
-                                            
-                                            <div class="contact-info-section" style="background-image:url(images/background/bg-map2.png);">  
-                                                                                                  
-                                                    <div class="wt-icon-box-wraper left m-b30">
-                                                        
-                                                        <div class="icon-content">
-                                                            <h3 class="m-t0 ">Phone number</h3>
-                                                            <p>8097390322 / 8655587403</p>
-                                                        </div>
-                                                    </div>
-      
-                                                    <div class="wt-icon-box-wraper left m-b30">
-                                                       
-                                                        <div class="icon-content">
-                                                            <h3 class="m-t0 ">Email address</h3>
-                                                            <p>info@rhosigma.in</p>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="wt-icon-box-wraper left m-b30">
-                                                        
-                                                        <div class="icon-content">
-                                                            <h3 class="m-t0 ">Address info</h3>
-                                                            <p>B/602, Virani Business Center, Opposite Bharat Gear Limited, Kausa Mumbra Thane 400612.</p>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="wt-icon-box-wraper left">
-                                                        
-                                                        <div class="icon-content">
-                                                            <h3 class="m-t0 ">Opening Hours</h3>
-                                                            <ul class="list-unstyled m-b0">
-                                                              <li>Mon-Sat: 9 am – 6 pm</li>
-                                                      
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                   
                                             </div>
-                                            
+                                            <!-- TITLE END-->
+
+                                            <div class="contact-info-section"
+                                                style="background-image:url(images/background/bg-map2.png);">
+
+                                                <div class="wt-icon-box-wraper left m-b30">
+
+                                                    <div class="icon-content">
+                                                        <h3 class="m-t0 ">Phone number</h3>
+                                                        <a href="tel:8655587403" style="display:inline-block ;color:white">
+                                                            <p>8655587403/</p>
+                                                        </a> 
+                                                        <a href="tel:8097390322" style="display:inline-block;color:white">
+                                                            <p>8097390322</p>
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="wt-icon-box-wraper left m-b30">
+
+                                                    <div class="icon-content">
+                                                        <h3 class="m-t0 ">Email address</h3>
+                                                      <a href="mailto:info@rhosigma.in" style="color: white;"   ><p>info@rhosigma.in</p></a>  
+                                                    </div>
+                                                </div>
+
+                                                <div class="wt-icon-box-wraper left m-b30">
+
+                                                    <div class="icon-content">
+                                                        <h3 class="m-t0 ">Address info</h3>
+                                                        <p>B/602, Virani Business Center, Opposite Bharat Gear Limited,
+                                                            Kausa Mumbra Thane 400612.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="wt-icon-box-wraper left">
+
+                                                    <div class="icon-content">
+                                                        <h3 class="m-t0 ">Opening Hours</h3>
+                                                        <ul class="list-unstyled m-b0">
+                                                            <li>Mon-Sat: 9 am – 6 pm</li>
+
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
-                                
+
                             </div>
-                           
-                    
+
+
                         </div>
-                    
+
                     </div>
                 </div>
             </div>
-            
-               <!-- GOOGLE MAP -->
-         <br>
+
+            <!-- GOOGLE MAP -->
+            <br>
             <div class="container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.8762292248516!2d73.02973341169566!3d19.156894381989602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bf372420b63b%3A0x888f567b81cf0224!2sRhosigma%20Engineering%20%26%20Automations%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1682485416902!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.8762292248516!2d73.02973341169566!3d19.156894381989602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bf372420b63b%3A0x888f567b81cf0224!2sRhosigma%20Engineering%20%26%20Automations%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1682485416902!5m2!1sen!2sin"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-           
-            
+
+
         </div>
         <!-- CONTENT END -->
 
@@ -199,12 +221,12 @@
             </div>
         </div>    -->
 
-     
-        
-        
+
+
+
         {{>footer}}
-		
-        
+
+
     </div>
 
 
@@ -216,4 +238,5 @@
 
 
 <!-- Mirrored from thewebmax.org/industro/contact-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Apr 2023 04:43:36 GMT -->
+
 </html>

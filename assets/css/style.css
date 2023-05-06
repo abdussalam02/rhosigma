@@ -24840,3 +24840,17 @@ ol.commentlist li .star-rating {
 }
 
 /* //////////////CAREER PAGE////////////// */
+
+div#slide-73-layer-4,div#slide-74-layer-4 {
+    background-color: #002b49 !important;
+	
+}
+
+div#slide-73-layer-4:hover{
+	background-color:#46bfe8!important;
+	
+}
+div#slide-74-layer-4:hover{
+	background-color:#46bfe8!important;
+
+}

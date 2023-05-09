@@ -560,6 +560,22 @@ Version: 1.0
 ======================================*/
 
 
+/* ////about */
+
+div#slide-73-layer-4,div#slide-74-layer-4 {
+    background-color: #002b49 !important;
+	
+}
+
+div#slide-73-layer-4:hover{
+	background-color:#46bfe8!important;
+	
+}
+div#slide-74-layer-4:hover{
+	background-color:#46bfe8!important;
+
+}
+
 .btn.btn-primary {
 	color: #fff !important;
 	background-color: #46bfe8!important;
@@ -662,6 +678,12 @@ table td {
 	}
 }
 
+
+img.main-into{
+	/* box-shadow: inset 0px 0px 10px 10px #000!important; */
+	box-shadow: 0 0 8px 8px white inset!important;
+
+}
 p,
 address,
 pre,
@@ -6957,11 +6979,11 @@ input[type=radio]:checked+label:before {
 }
 
 .widget-title {
-	margin: 0 0 25px;
+	margin: 14px 0 25px;
 }
 
 .widget-title {
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 .recent-posts-entry ul {
@@ -17014,6 +17036,31 @@ textarea.form-control2 {
 }
 
 
+@media only screen and (max-width: 425px) {
+	
+	.colarge-2 {
+		max-width: 100%;
+		width: 50%;
+	}
+
+	.colarge-2 img {
+		width: 100%;
+		
+	}
+	/* .ab-img img {
+		
+	} */
+	.colarge-2-1 {
+		width: 54%;
+		top: 0px;
+		max-width: 100%;
+		height: 235px !important;
+		
+	}
+}
+
+
+
 .counter2-section-outer-bottom {
 	padding-bottom: 0px;
 }
@@ -17044,7 +17091,7 @@ textarea.form-control2 {
 
 
 .counter-outer span {
-	font-size: 28px;
+	font-size: 24px;
 	display: block;
 	font-weight: 400;
 }
@@ -24840,17 +24887,3 @@ ol.commentlist li .star-rating {
 }
 
 /* //////////////CAREER PAGE////////////// */
-
-div#slide-73-layer-4,div#slide-74-layer-4 {
-    background-color: #002b49 !important;
-	
-}
-
-div#slide-73-layer-4:hover{
-	background-color:#46bfe8!important;
-	
-}
-div#slide-74-layer-4:hover{
-	background-color:#46bfe8!important;
-
-}

@@ -22,11 +22,7 @@ app.use(express.static(__dirname +'/assets'))
 hbs.registerPartials("views/partials")
 
 
-
-
-
-
-
+// for newsletter
 app.get("/", async (req, res) => {
 
   res.render("index");
@@ -59,20 +55,44 @@ app.post("/", async (req, res) => {
     if (err) {
       console.log(err)
     } else {
+     
       res.redirect('/');
+      
       // console.log('email send' + info.response)
     }
+ 
   })
+ 
 
 });
 
-
+///////////
 
 app.get("/about", async (req, res) => {
   res.render("about");
 });
 
+app.get("/Service/about", async (req, res) => {
+  res.render("about");
+});
+
+app.get("/blogs/about", async (req, res) => {
+  res.render("about");
+});
+
+
+app.get("/blogs/services", async (req, res) => {
+  res.render("services");
+});
+
+
+
+
 app.get("/services", async (req, res) => {
+  res.render("services");
+});
+
+app.get("/Service/services", async (req, res) => {
   res.render("services");
 });
 

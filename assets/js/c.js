@@ -1,6 +1,7 @@
 
 function SendMail(event) {
     event.preventDefault();
+    
     var params = {
         name: document.getElementById("fname").value,
         email: document.getElementById("femail").value,
@@ -28,21 +29,6 @@ function SendMail(event) {
     document.getElementById('contact-forms').reset();
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
